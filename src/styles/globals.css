@@ -1,14 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Roboto:wght@400;700;900&display=swap');
+
+/* font-family: 'Lora', serif;
+font-family: 'Roboto', sans-serif; */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@layer base {  
+  html {
+    font-family: 'Lora', serif;
+    @apply w-full min-h-screen bg-secondary-100 text-secondary-200
+  }
+
+  body {
+    @apply w-9/10 min-h-screen mx-auto relative
+  }
+
+  .paragraph {
+    @apply text-xs md:text-sm xxl:text-lg
+  }
+
+  .skill {
+    @apply bg-skill rounded text-center font-semibold p-1.5
+  }
+
+  .contact-links {
+    @apply flex items-center gap-2 justify-center transition duration-1000 ease-in-out hover:scale-150
+  }
+
+  .paragraph {
+    @apply text-xs md:text-sm xxl:text-lg
+  }
+
+  .index {
+    z-index: 1;
+  }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;

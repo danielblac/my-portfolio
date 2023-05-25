@@ -1,0 +1,132 @@
+{
+    "next_projects": [
+        {
+            "id": 1,
+            "title": "Movie Watchlist",
+            "coverImg": "movie-watchlist.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://daniel-movie-search-app.live.app",
+            "githubLink": "https://github.com/danielblac/Movie-Watchlist"
+        }
+    ],
+    "react_projects": [
+        {
+            "id": 1,
+            "title": "Movie Watchlist",
+            "coverImg": "movie-watchlist.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://daniel-movie-search-app.live.app",
+            "githubLink": "https://github.com/danielblac/Movie-Watchlist"
+        },
+        {
+            "id": 2,
+            "title": "Photo Store",
+            "coverImg": "photo-store.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://daniel-photo-store.live.app",
+            "githubLink": "https://github.com/danielblac/Photo-Store"
+        },
+        {
+            "id": 3,
+            "title": "Speed Typing Test",
+            "coverImg": "speed-typing.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://db-speed-typing-test.live.app",
+            "githubLink": "https://github.com/danielblac/Speed-Typing-Test"
+        },
+        {
+            "id": 4,
+            "title": "Tenzies Game",
+            "coverImg": "tenzies.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://de-tenzies-game.live.app",
+            "githubLink": "https://github.com/danielblac/Tenzies-Game"
+        }
+    ],
+    "javascript_projects": [
+        {
+            "id": 1,
+            "title": "TinDog",
+            "coverImg": "tindog.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://de-tindog-app.live.app",
+            "githubLink": "https://github.com/danielblac/TinDog"
+        },
+        {
+            "id": 2,
+            "title": "Resturant Menu",
+            "coverImg": "resturant-menu.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://de-resturant-menu-app.live.app",
+            "githubLink": "https://github.com/danielblac/ResturantMenu-Project"
+        },
+        {
+            "id": 3,
+            "title": "Startpage Chrome Extension",
+            "coverImg": "chrome-extension.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://de-startpage-chrome-extension.live.app",
+            "githubLink": "https://github.com/danielblac/Chrome-Extension"
+        },
+        {
+            "id": 4,
+            "title": "Card War Game",
+            "coverImg": "card-war.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://de-card-war.live.app",
+            "githubLink": "https://github.com/danielblac/Card-War"
+        }
+    ],
+    "css_projects": [
+        {
+            "id": 1,
+            "title": "My Learning Journal",
+            "coverImg": "my-learning-journal.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://de-lerning-journal.live.app",
+            "githubLink": "https://github.com/danielblac/My-Learning-Journal"
+        },
+        {
+            "id": 2,
+            "title": "Technical Documentation Page",
+            "coverImg": "technical-documentation-page.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://de-technical-documentation-site.live.app",
+            "githubLink": "https://github.com/danielblac/Technical-Documentation-Page"
+        },
+        {
+            "id": 3,
+            "title": "Little Taco Shop",
+            "coverImg": "little-taco-shop.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://little-taco-shop-app.live.app",
+            "githubLink": "https://github.com/danielblac/Little-Taco-Shop"
+        },
+        {
+            "id": 4,
+            "title": "Tribute Page",
+            "coverImg": "tribute-page.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://lionel-messi-tribute-page.live.app",
+            "githubLink": "https://github.com/danielblac/Tribute-Page"
+        }
+    ],
+    "real_projects": [
+        {
+            "id": 1,
+            "title": "Inshorens Landing Page",
+            "coverImg": "inshorens.png",
+            "description": "This is my frontend part of a website i built as part of a team for the Inshorens app project, Inshorens is a company that deals with the business of selling valuable gadgets at very affordable prices with flexible payment structure. I was solely resposible for delivering the frontend solution to this website",
+            "liveLink": "daniel-inshorens-landingpage-l7cro656m-daniel-blac.vercel.app/about",
+            "githubLink": "https://github.com/danielblac/daniel-inshorens-landingpage"
+        },
+        {
+            "id": 2,
+            "title": "Movie Watchlist",
+            "coverImg": "movie-watchlist.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere illum veritatis eum neque amet vitae iure minima deserunt nesciunt. Quisquam porro, et quod ipsa rerum iure sunt laborum? Possimus!",
+            "liveLink": "https://daniel-movie-search-app.live.app",
+            "githubLink": "https://github.com/danielblac/Movie-Watchlist"
+        }
+    ]
+}
