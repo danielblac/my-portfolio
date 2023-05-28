@@ -50,6 +50,7 @@ module.exports = {
         roboto: ['Roboto']    
       },
       spacing: {
+        '18': '4.5rem',
         '29': '7.45rem',
         '38': '9.5rem',
         '46': '11.5rem',
@@ -72,10 +73,20 @@ module.exports = {
         '4xl': '30px'
       },
       maxWidth: {
-        small: '10rem'
+        small: '10rem',
+        medium: '17.5rem'
       },
       textDecorationThickness: {
         3: '3px',
+        5: '5px',
+        7: '7px',
+      },
+      textUnderlineOffset: {
+        10: '10px',
+        12: '12px',
+      },
+      minWidth: {
+        '16': '16rem',
       }
     },
   },

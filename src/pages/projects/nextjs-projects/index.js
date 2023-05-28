@@ -12,18 +12,18 @@ export default function NextjsProjects({data}) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/image/dan.jpg" />
       </Head>
-      <div className="pb-14 pt-4 px-4">
+      <div className="pb-20 pt-4 px-4 md:ml-3 w-full mx-auto sm:max-w-md md:max-w-none md:grid md:grid-cols-2">
         {data.map(({ title, id, coverImg }) => (
-          <Link key={id} href={`/projects/nextjs-projects/${id}`}>
-            <div className="flex flex-col items-center bg-skill mb-6 pb-5 rounded-md">
+          <Link className="" key={id} href={`/projects/nextjs-projects/${id}`}>
+            <div className="text-center bg-skill mb-6 pb-5 sm:px-6 sm:mx-10 rounded-md sm:rounded-lg md:max-w-sm">
               <Image 
-                className="h-64 pt-5 w-8/10 pb-3"
+                className="h-64 pt-5 w-8/10 pb-3 sm:max-w-sm mx-auto"
                 src={`/image/${coverImg}`}
                 alt={title}
                 width={750}
                 height={600}
               />
-              <h3 className="font-bold text-xl">{title}</h3>
+              <h3 className="font-bold text-xl sm:text-2xl sm:py-3">{title}</h3>
             </div>
           </Link>
         ))}

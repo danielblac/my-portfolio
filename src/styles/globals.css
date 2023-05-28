@@ -17,12 +17,23 @@ font-family: 'Roboto', sans-serif; */
     @apply w-9/10 min-h-screen mx-auto relative
   }
 
-  .paragraph {
-    @apply text-xs md:text-sm xxl:text-lg
+  .home {
+    grid-template-areas: 
+      "img titlt"
+      "img subtitle";
+    grid-template-columns: min-content max-content;
+  }
+
+  .home-img {
+    grid-area: img;
+  }
+
+  .home-subtitle {
+    width: calc(100% + 1.5em);
   }
 
   .skill {
-    @apply bg-skill rounded text-center font-semibold p-1.5
+    @apply bg-skill rounded text-center font-semibold px-1.5 py-2.5
   }
 
   .contact-links {

@@ -15,15 +15,15 @@ export default function javascriptProjects({data}) {
       <div className="pb-14 pt-4 px-4">
         {data.map(({ title, id, coverImg }) => (
           <Link key={id} href={`/projects/javascript-projects/${id}`}>
-            <div className="flex flex-col items-center bg-skill mb-6 pb-5 rounded-md">
+            <div className="flex flex-col items-center bg-skill mb-6 pb-5 sm:px-6 sm:mx-10 rounded-md sm:rounded-lg">
               <Image 
-                className="h-64 pt-5 w-8/10 pb-3"
+                className="h-64 pt-5 sm:pt-7 w-8/10 pb-3 sm:max-w-sm mx-auto"
                 src={`/image/${coverImg}`}
                 alt={title}
                 width={750}
                 height={600}
               />
-              <h3 className="font-bold text-xl">{title}</h3>
+              <h3 className="font-bold text-xl sm:text-2xl sm:py-3">{title}</h3>
             </div>
           </Link>
         ))}

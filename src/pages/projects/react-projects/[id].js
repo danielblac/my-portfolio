@@ -14,17 +14,17 @@ export default function ReactProjectInfo({data}) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/image/dan.jpg" />
       </Head>
-      <div className="pb-20 p-2">
-        <div className="bg-skill pt-4 px-3 flex flex-col items-center rounded-md">
-          <h2 className="font-bold text-2xl text-center">{title}</h2>
+      <div className="pb-20 p-2 sm:pt-12 md:pt-8">
+        <div className="bg-skill pt-4 sm:pt-6 px-3 flex flex-col items-center rounded-md">
+          <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl text-center">{title}</h2>
           <Image 
-            className="h-64 mt-3 w-9/10"
+            className="h-64 md:h-80 mt-3 sm:mt-6 w-9/10 sm:max-w-sm md:max-w-lg mx-auto"
             src={`/image/${coverImg}`}
             alt={title}
             width={750}
             height={600}
           />
-          <div className="flex p-3 gap-8 items-center text-lg">
+          <div className="flex p-3 sm:p-5 gap-8 items-center text-lg sm:text-xl md:text-2xl">
             <Link 
               className="relative inline-block p-1 text-inherit border-b-2 border-primary after:content-[''] after:-z-10 after:block after:absolute after:top-0 after:left-0 after:right-full after:bg-primary after:h-full after:transition-all after:duration-500 focus:after:right-0 focus:after:bg-primary hover:after:right-0 hover:after:bg-primary"
               href={liveLink} 
@@ -43,7 +43,7 @@ export default function ReactProjectInfo({data}) {
               <FaGithub />
             </Link>
           </div>
-          <p className="pb-5 tracking-wide">{description}</p>
+          <p className="pb-5 sm:pb-7 tracking-wide sm:text-center md:text-lg">{description}</p>
         </div>
       </div>
     </>

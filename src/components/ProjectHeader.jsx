@@ -15,9 +15,9 @@ export default function ProjectHeader() {
 
   return (
     <>    
-      <header className="flex flex-col sm:flex-row p-4 items-center">
+      <header className="flex flex-col p-4 items-center sm:flex-row lg:p-6">
         <div className="flex w-full justify-between">
-          <h1 className="text-2xl md:text-4xl underline decoration-primary decoration-3 underline-offset-8 font-bold tracking-wider">Welcome</h1>
+          <h1 className="text-2xl underline decoration-primary decoration-3 underline-offset-8 font-bold tracking-wider sm:text-3xl md:text-4xl md:decoration-5 md:underline-offset-10 lg:text-5xl">Welcome</h1>
           <div 
             className='cursor-pointer sm:hidden sm:absolute' 
             onClick={toggleMenu}
@@ -27,13 +27,13 @@ export default function ProjectHeader() {
             </svg>
           </div>
         </div>
-        <nav className={`${isOpen ? 'flex' : 'hidden'} sm:flex pt-4 w-full justify-around sm:justify-between text-sm md:text-lg`}>
+        <nav className={`${isOpen ? 'flex' : 'hidden'} text-sm pt-4 w-full justify-around sm:flex sm:justify-between lg:justify-around md:text-lg lg:text-xl`}>
           <NavLink href='/'>
             <div className="flex flex-col items-center">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7 sm:hidden">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
               </svg>
-              <p>Home</p>
+              <p className="lg:py-1 lg:px-2">Home</p>
             </div>
           </NavLink>          
           <NavLink href='/projects'>
@@ -41,7 +41,7 @@ export default function ProjectHeader() {
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7 sm:hidden">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
               </svg>
-              <p>Projects</p>
+              <p className="lg:py-1 lg:px-2">Projects</p>
             </div>
           </NavLink>
           <NavLink href='/contact'>
@@ -49,18 +49,18 @@ export default function ProjectHeader() {
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7 sm:hidden">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z" />
               </svg>
-              <p>Contact</p>
+              <p className="lg:py-1 lg:px-2">Contact</p>
             </div>
           </NavLink>
         </nav>
       </header>
-      <header className="px-4 py-2">
-        <h2 className="font-bold text-2xl pb-3">My Projects</h2>
-        <nav className="flex justify-between text-sm">
-          <ProjectNavLink href='/projects/nextjs-projects'><p className="w-20 text-center py-1.5">NextJs</p></ProjectNavLink>
-          <ProjectNavLink href='/projects/react-projects'><p className="w-20 text-center py-1.5">React</p></ProjectNavLink>
-          <ProjectNavLink href='/projects/javascript-projects'><p className="w-20 text-center py-1.5">JavaScript</p></ProjectNavLink>
-          <ProjectNavLink href='/projects/css-projects'><p className="w-20 text-center py-1.5">CSS</p></ProjectNavLink>
+      <header className="px-2 py-2 xs:px-4 md:px-6 md:grid md:grid-cols-3 lg:px-9">
+        <h2 className="font-bold text-2xl pb-3 md:col-span-1 lg:text-3xl">My Projects</h2>
+        <nav className="flex justify-between items-center text-sm md:col-span-2 lg:text-lg">
+          <ProjectNavLink href='/projects/nextjs-projects'><p className="text-center py-1 px-2 xs:w-20 lg:w-24">NextJs</p></ProjectNavLink>
+          <ProjectNavLink href='/projects/react-projects'><p className="text-center py-1 px-2 xs:w-20 lg:w-24">React</p></ProjectNavLink>
+          <ProjectNavLink href='/projects/javascript-projects'><p className="text-center py-1 px-2 xs:w-20 lg:w-24">JavaScript</p></ProjectNavLink>
+          <ProjectNavLink href='/projects/css-projects'><p className="text-center py-1 px-2 xs:w-20 lg:w-24">CSS</p></ProjectNavLink>
         </nav>
       </header>
     </>
