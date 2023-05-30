@@ -16,7 +16,7 @@ export default function Header() {
     <>    
       <header className="flex flex-col p-4 items-center sm:flex-row lg:p-6">
         <div className="flex w-full justify-between">
-          <h1 className="text-2xl underline decoration-primary decoration-3 underline-offset-8 font-bold tracking-wider sm:text-3xl md:text-4xl md:decoration-5 md:underline-offset-10 lg:text-5xl">Welcome</h1>
+          <h1 className="text-2xl underline decoration-primary decoration-3 underline-offset-8 font-bold tracking-wider sm:text-3xl md:text-4xl md:decoration-5 md:underline-offset-10 lg:text-5xl xl:text-6xl">Welcome</h1>
           <div 
             className='cursor-pointer sm:hidden sm:absolute' 
             onClick={toggleMenu}
@@ -26,7 +26,7 @@ export default function Header() {
             </svg>
           </div>
         </div>
-        <nav className={`${isOpen ? 'flex' : 'hidden'} text-sm pt-4 w-full justify-around sm:flex sm:justify-between lg:justify-around md:text-lg lg:text-xl`}>
+        <nav className={`${isOpen ? 'flex' : 'hidden'} text-sm pt-4 w-full justify-around sm:flex sm:justify-between lg:justify-around md:text-lg lg:text-xl xxl:text-2xl`}>
           <NavLink href='/'>
             <div className="flex flex-col items-center">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7 sm:hidden">

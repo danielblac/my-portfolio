@@ -14,36 +14,40 @@ export default function CssProjectInfo({data}) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/image/dan.jpg" />
       </Head>
-      <div className="pb-20 p-2 sm:pt-12">
-        <div className="bg-skill pt-4 sm:pt-6 px-3 flex flex-col items-center rounded-md">
-          <h2 className="font-bold text-2xl sm:text-3xl text-center">{title}</h2>
-          <Image 
-            className="h-64 mt-3 sm:mt-6 w-9/10 sm:max-w-sm mx-auto"
-            src={`/image/${coverImg}`}
-            alt={title}
-            width={750}
-            height={600}
-          />
-          <div className="flex p-3 sm:p-5 gap-8 items-center text-lg sm:text-xl">
-            <Link 
-              className="relative inline-block p-1 text-inherit border-b-2 border-primary after:content-[''] after:-z-10 after:block after:absolute after:top-0 after:left-0 after:right-full after:bg-primary after:h-full after:transition-all after:duration-500 focus:after:right-0 focus:after:bg-primary hover:after:right-0 hover:after:bg-primary"
-              href={liveLink} 
-              target='_blank'
-              rel="noopener noreferrer"
-            >
-              Visit Site <span className="pl-2">&rarr;</span>
-            </Link>
-            <Link 
-              className="netlify-link transition-all duration-300 hover:scale-150"
-              href={githubLink} 
-              target='_blank'
-              rel="noopener noreferrer"
-              title="View Source Code"
-            >
-              <FaGithub />
-            </Link>
+      <div className="pb-20 p-2 sm:pt-12 md:pt-8 lg:pt-0 lg:pb-24 xl:pt-6 xxl:pt-0">
+        <div className="bg-skill pt-4 px-3 items-center rounded-xl pb-5 sm:pt-6 sm:pb-7 xl:pt-10 xl:pb-16 xxl:pt-4 xxl:pb-8">
+          <h2 className="font-bold text-2xl text-center sm:text-3xl md:text-4xl lg:text-5xl xxl:text-6xl">{title}</h2>
+          <div className="text-center flex flex-col xl:flex-row xl:px-3 xl:gap-4">
+              <Image 
+                className="h-64 mt-3 rounded-lg w-9/10 mx-auto sm:mt-6 sm:max-w-sm md:max-w-lg md:h-80 xl:w-105 xl:h-96 xxl:max-w-none xxl:w-120 xxl:h-105"
+                src={`/image/${coverImg}`}
+                alt={title}
+                width={750}
+                height={600}
+              />
+            <div className="flex flex-col items-center xl:my-auto">
+              <div className="flex p-3 gap-8 items-center text-lg sm:text-xl sm:p-5 md:text-2xl xl:text-4xl">
+                <Link 
+                  className="relative inline-block p-1 text-inherit border-b-2 border-primary after:content-[''] after:-z-10 after:block after:absolute after:top-0 after:left-0 after:right-full after:bg-primary after:h-full after:transition-all after:duration-500 focus:after:right-0 focus:after:bg-primary hover:after:right-0 hover:after:bg-primary"
+                  href={liveLink} 
+                  target='_blank'
+                  rel="noopener noreferrer"
+                >
+                  Visit Site <span className="pl-2">&rarr;</span>
+                </Link>
+                <Link 
+                  className="transition-all duration-500 ease-in-out hover:scale-150"
+                  href={githubLink} 
+                  target='_blank'
+                  rel="noopener noreferrer"
+                  title="View Source Code"
+                >
+                  <FaGithub />
+                </Link>
+              </div>
+              <p className="tracking-wide sm:text-center md:text-lg xl:text-xl">{description}</p>
+            </div>
           </div>
-          <p className="pb-5 sm:pb-7 tracking-wide sm:text-center">{description}</p>
         </div>
       </div>
     </>

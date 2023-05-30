@@ -33,7 +33,7 @@ font-family: 'Roboto', sans-serif; */
   }
 
   .skill {
-    @apply bg-skill rounded text-center font-semibold px-1.5 py-2.5
+    @apply bg-skill rounded text-center font-semibold px-1.5 py-2.5 lg:px-4 lg:py-3
   }
 
   .contact-links {

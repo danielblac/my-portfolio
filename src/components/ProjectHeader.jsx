@@ -17,7 +17,7 @@ export default function ProjectHeader() {
     <>    
       <header className="flex flex-col p-4 items-center sm:flex-row lg:p-6">
         <div className="flex w-full justify-between">
-          <h1 className="text-2xl underline decoration-primary decoration-3 underline-offset-8 font-bold tracking-wider sm:text-3xl md:text-4xl md:decoration-5 md:underline-offset-10 lg:text-5xl">Welcome</h1>
+          <h1 className="text-2xl underline decoration-primary decoration-3 underline-offset-8 font-bold tracking-wider sm:text-3xl md:text-4xl md:decoration-5 md:underline-offset-10 lg:text-5xl xxl:text-6xl">Welcome</h1>
           <div 
             className='cursor-pointer sm:hidden sm:absolute' 
             onClick={toggleMenu}
@@ -27,7 +27,7 @@ export default function ProjectHeader() {
             </svg>
           </div>
         </div>
-        <nav className={`${isOpen ? 'flex' : 'hidden'} text-sm pt-4 w-full justify-around sm:flex sm:justify-between lg:justify-around md:text-lg lg:text-xl`}>
+        <nav className={`${isOpen ? 'flex' : 'hidden'} text-sm pt-4 w-full justify-around sm:flex sm:justify-between lg:justify-around md:text-lg lg:text-xl xxl:text-2xl`}>
           <NavLink href='/'>
             <div className="flex flex-col items-center">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7 sm:hidden">
@@ -55,8 +55,8 @@ export default function ProjectHeader() {
         </nav>
       </header>
       <header className="px-2 py-2 xs:px-4 md:px-6 md:grid md:grid-cols-3 lg:px-9">
-        <h2 className="font-bold text-2xl pb-3 md:col-span-1 lg:text-3xl">My Projects</h2>
-        <nav className="flex justify-between items-center text-sm md:col-span-2 lg:text-lg">
+        <h2 className="font-bold text-2xl pb-3 md:col-span-1 lg:text-3xl xxl:text-4xl">My Projects</h2>
+        <nav className="flex justify-between items-center text-sm md:col-span-2 lg:text-lg xxl:text-xl">
           <ProjectNavLink href='/projects/nextjs-projects'><p className="text-center py-1 px-2 xs:w-20 lg:w-24">NextJs</p></ProjectNavLink>
           <ProjectNavLink href='/projects/react-projects'><p className="text-center py-1 px-2 xs:w-20 lg:w-24">React</p></ProjectNavLink>
           <ProjectNavLink href='/projects/javascript-projects'><p className="text-center py-1 px-2 xs:w-20 lg:w-24">JavaScript</p></ProjectNavLink>
