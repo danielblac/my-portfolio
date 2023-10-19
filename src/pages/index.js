@@ -34,6 +34,8 @@ export default function Home() {
             <div className="skill">React</div>
             <div className="skill">NextJS</div>            
             <div className="skill">Tailwind CSS</div>        
+            <div className="skill">Sass</div>        
+            <div className="skill">React-Bootstrap</div>        
           </div>
         </div>
         <p className="text-justify tracking-wide md:max-w-medium md:self-start md:justify-self-start  pt-5 md:pt-0 md:ml-9 md:-mt-3 lg:max-w-sm lg:ml-12 lg:-mt-12 lg:text-lg xl:text-xl xl:max-w-lg xl:-mt-5 xxl:max-w-xl xxl:ml-28">

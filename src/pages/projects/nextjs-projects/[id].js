@@ -19,7 +19,7 @@ export default function NextjsProjectInfo({data}) {
           <h2 className="font-bold text-2xl text-center sm:text-3xl md:text-4xl lg:text-5xl xxl:text-6xl">{title}</h2>
           <div className="text-center flex flex-col xl:flex-row xl:px-3 xl:gap-4">
               <Image 
-                className="h-64 mt-3 rounded-lg w-9/10 mx-auto sm:mt-6 sm:max-w-sm md:max-w-lg md:h-80 xl:w-105 xl:h-96 xxl:max-w-none xxl:w-120 xxl:h-105"
+                className="h-64 mt-3 rounded-lg w-9/10 mx-auto sm:mt-6 sm:max-w-sm md:max-w-lg md:h-80 xl:w-105 xl:h-80 xxl:max-w-none xxl:w-120"
                 src={`/image/${coverImg}`}
                 alt={title}
                 width={750}

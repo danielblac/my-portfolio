@@ -2,10 +2,26 @@
     "next_projects": [
         {
             "id": 1,
-            "title": "Inshorens Landing Page",
+            "title": "Monodome",
+            "coverImg": "monodome.png",
+            "description": "This is a client app I built as Front-end Teamlead of a Team, The App was built with NextJs for the frontend and Laravel for the backend. I handled about 85% of the outcome of fronend for this project and I am responsible for weekly presentation to the clients about the progress of the project for the frontend and backend engineers",
+            "liveLink": "https://talosmart-monodone-frontend.vercel.app/",
+            "githubLink": "/projects/organization"
+        },
+        {
+            "id": 2,
+            "title": "Switchive",
+            "coverImg": "switchive.png",
+            "description": "This is a client app i built as Front-end Teamlead of a Team, The App was built with NextJs for the frontend and NodeJs for the backend, I built the App Layout, Landing Page and Gift-card Page, I am responsible for the supervision of delivery of the entire project as long as it concerns frontend and I am responsible for weekly presentation to the clients about the progress of the project for the frontend and backend engineers.",
+            "liveLink": "https://switch-hive-frontend.vercel.app/",
+            "githubLink": "/projects/organization"
+        },
+        {
+            "id": 3,
+            "title": "Inshorens",
             "coverImg": "inshorens.png",
             "description": "This is my frontend part of a website i built as part of a team for the Inshorens app project, Inshorens is a company that deals with the business of selling valuable gadgets at very affordable prices with flexible payment structure. I was solely resposible for delivering the frontend solution to this website.",
-            "liveLink": "daniel-inshorens-landingpage-l7cro656m-daniel-blac.vercel.app/about",
+            "liveLink": "daniel-inshorens-landingpage-l7cro656m-daniel-blac.vercel.app/",
             "githubLink": "https://github.com/danielblac/daniel-inshorens-landingpage"
         }
     ],

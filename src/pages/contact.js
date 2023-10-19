@@ -10,7 +10,7 @@ export default function Contact() {
       <Head>
         <title>My Portfolio | Contact</title>
       </Head>
-      <div className="pb-14 px-2 xs:px-4">
+      <div className="pb-14 pt px-2 xs:px-4">
         <h3 className='font-bold text-xl sm:text-2xl lg:text-3xl xxl:text-4xl'>Contact Me</h3>
           <div className="contact-details flex flex-col items-center pt-3">
             <h2 className='text-3xl text-center font-bold leading-snug max-w-3xl xs:leading-snug xs:text-5xl sm:text-6xl sm:leading-snug xl:text-7xl xl:leading-snug xl:-mt-3'>I'd love very much to hear from you...</h2>
@@ -19,7 +19,7 @@ export default function Contact() {
               <Link href="tel:+2348165044450"  className="contact-links"><FaMobileAlt /> Call me</Link>
               <Link href="mailto:daniel_blac@yahoo.com" className="contact-links"><FaEnvelope /> Send a Mail</Link>
               <Link href="https://linkedin.com/in/daniel-egboro-ebipamowei" target='_blank' rel="noopener noreferrer" className="contact-links"><FaLinkedin /> LinkedIn</Link>
-              <Link href="https://twitter.com/danielblacyaho1" target='_blank' rel="noopener noreferrer" className="contact-links"><FaTwitter /> Twitter</Link>
+              <Link href="https://twitter.com/danie_blac" target='_blank' rel="noopener noreferrer" className="contact-links"><FaTwitter /> Twitter</Link>
               <Link href="https://github.com/danielblac" target='_blank' rel="noopener noreferrer" className="contact-links"><FaGithub /> GitHub</Link>
             </div>
         </div>
