@@ -23,6 +23,14 @@
             "description": "This is my frontend part of a website i built as part of a team for the Inshorens app project, Inshorens is a company that deals with the business of selling valuable gadgets at very affordable prices with flexible payment structure. I was solely resposible for delivering the frontend solution to this website.",
             "liveLink": "daniel-inshorens-landingpage-l7cro656m-daniel-blac.vercel.app/",
             "githubLink": "https://github.com/danielblac/daniel-inshorens-landingpage"
+        },
+        {
+            "id": 4,
+            "title": "Split Delivery",
+            "coverImg": "split-delivery.png",
+            "description": "This is a website i built for a client, It has a landing page and an admin panel, The admin panel has authentication which is did using next-auth, I worked on this project with a backend developer who worked on all the endpoints needed to fulfill the customer's requirements.",
+            "liveLink": "daniel-inshorens-landingpage-l7cro656m-daniel-blac.vercel.app/",
+            "githubLink": "/projects/organization"
         }
     ],
     "react_projects": [
