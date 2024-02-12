@@ -34,6 +34,7 @@ export default function Home() {
             <div className="skill">React</div>
             <div className="skill">NextJS</div>            
             <div className="skill">Tailwind CSS</div>        
+            <div className="skill">Material UI</div>        
             <div className="skill">Sass</div>        
             <div className="skill">React-Bootstrap</div>        
           </div>

@@ -1,138 +1,146 @@
 {
-    "next_projects": [
-        {
-            "id": 1,
-            "title": "Monodome",
-            "coverImg": "monodome.png",
-            "description": "This is a client app I built as Front-end Teamlead of a Team, The App was built with NextJs for the frontend and Laravel for the backend. I handled about 85% of the outcome of fronend for this project and I am responsible for weekly presentation to the clients about the progress of the project for the frontend and backend engineers",
-            "liveLink": "https://talosmart-monodone-frontend.vercel.app/",
-            "githubLink": "/projects/organization"
-        },
-        {
-            "id": 2,
-            "title": "Switchive",
-            "coverImg": "switchive.png",
-            "description": "This is a client app i built as Front-end Teamlead of a Team, The App was built with NextJs for the frontend and NodeJs for the backend, I built the App Layout, Landing Page and Gift-card Page, I am responsible for the supervision of delivery of the entire project as long as it concerns frontend and I am responsible for weekly presentation to the clients about the progress of the project for the frontend and backend engineers.",
-            "liveLink": "https://switch-hive-frontend.vercel.app/",
-            "githubLink": "/projects/organization"
-        },
-        {
-            "id": 3,
-            "title": "Inshorens",
-            "coverImg": "inshorens.png",
-            "description": "This is my frontend part of a website i built as part of a team for the Inshorens app project, Inshorens is a company that deals with the business of selling valuable gadgets at very affordable prices with flexible payment structure. I was solely resposible for delivering the frontend solution to this website.",
-            "liveLink": "daniel-inshorens-landingpage-l7cro656m-daniel-blac.vercel.app/",
-            "githubLink": "https://github.com/danielblac/daniel-inshorens-landingpage"
-        },
-        {
-            "id": 4,
-            "title": "Split Delivery",
-            "coverImg": "split-delivery.png",
-            "description": "This is a website i built for a client, It has a landing page and an admin panel, The admin panel has authentication which is did using next-auth, I worked on this project with a backend developer who worked on all the endpoints needed to fulfill the customer's requirements.",
-            "liveLink": "daniel-inshorens-landingpage-l7cro656m-daniel-blac.vercel.app/",
-            "githubLink": "/projects/organization"
-        }
-    ],
-    "react_projects": [
-        {
-            "id": 1,
-            "title": "Movie Watchlist",
-            "coverImg": "movie-watchlist.png",
-            "description": "This Website allows you to search for the information of both known and unknown movies and save them on your watchlist which you can access any other time. Basically improves your movie search experience.",
-            "liveLink": "https://daniel-movie-search-app.netlify.app",
-            "githubLink": "https://github.com/danielblac/Movie-Watchlist"
-        },
-        {
-            "id": 2,
-            "title": "Photo Store",
-            "coverImg": "photo-store.png",
-            "description": "This is a tutorial project of a photo store, Just to show a practical example of how an online store works, You can purchase any of the displayed photo by adding to you cart items and place your order.",
-            "liveLink": "https://daniel-photo-store.netlify.app",
-            "githubLink": "https://github.com/danielblac/Photo-Store"
-        },
-        {
-            "id": 3,
-            "title": "Speed Typing Test",
-            "coverImg": "speed-typing.png",
-            "description": "This app allows you to test your typing skills, How fast can you type, it can be used to test yourself or any other person, it also comes handy as a fun exercise.",
-            "liveLink": "https://db-speed-typing-test.netlify.app",
-            "githubLink": "https://github.com/danielblac/Speed-Typing-Test"
-        },
-        {
-            "id": 4,
-            "title": "Tenzies Game",
-            "coverImg": "tenzies.png",
-            "description": "This is a tutorial project of the tenzies game, You have to keep rolling until all dice are the same. You win by clicking on each die to freeze it at its current value between rolls.",
-            "liveLink": "https://de-tenzies-game.netlify.app",
-            "githubLink": "https://github.com/danielblac/Tenzies-Game"
-        }
-    ],
-    "javascript_projects": [
-        {
-            "id": 1,
-            "title": "TinDog",
-            "coverImg": "tindog.png",
-            "description": "This a project which is a mini replica of the Tinder Dating Site, except that it is representing dogs. You can either like or dislike each profile to move on to the next profile until you have gone through every profile on the app.",
-            "liveLink": "https://de-tindog-app.netlify.app",
-            "githubLink": "https://github.com/danielblac/TinDog"
-        },
-        {
-            "id": 2,
-            "title": "Resturant Menu",
-            "coverImg": "resturant-menu.png",
-            "description": "This is a project that shows a practical example of how you can place an order on food and drinks online and probably have it delivered to you. You choose ur preffered dish(es) and drink, enter your card details to make payment on the order and it should be delivered.",
-            "liveLink": "https://de-resturant-menu-app.netlify.app",
-            "githubLink": "https://github.com/danielblac/ResturantMenu-Project"
-        },
-        {
-            "id": 3,
-            "title": "Startpage Chrome Extension",
-            "coverImg": "chrome-extension.png",
-            "description": "This is a chrome extension that you can add to the start-up page of your chrome app, it shows different beautiful background photos and who took the photo, the current weather condition, the current rise and drop in Dogecoin price and of-course the current time.",
-            "liveLink": "https://de-startpage-chrome-extension.netlify.app",
-            "githubLink": "https://github.com/danielblac/Chrome-Extension"
-        },
-        {
-            "id": 4,
-            "title": "Card War Game",
-            "coverImg": "card-war.png",
-            "description": "This is a tutorial project of a card game called Card War, You start the game by drawing a new deck of cards containing 52 cards, You win by getting a higer card number than computer every time you draw, when the deck card is finished, the person with the highest score wins. You can start a new game by drawing a new deck as many times as you want.",
-            "liveLink": "https://de-card-war.netlify.app",
-            "githubLink": "https://github.com/danielblac/Card-War"
-        }
-    ],
-    "css_projects": [
-        {
-            "id": 1,
-            "title": "My Learning Journal",
-            "coverImg": "my-learning-journal.png",
-            "description": "This is a project that shows my learning schedule when i started learning programming newly.",
-            "liveLink": "https://de-lerning-journal.netlify.app",
-            "githubLink": "https://github.com/danielblac/My-Learning-Journal"
-        },
-        {
-            "id": 2,
-            "title": "Technical Documentation Page",
-            "coverImg": "technical-documentation-page.png",
-            "description": "This is a website that documents the proposed quotation to build and supervise a building from its foundation to completion.",
-            "liveLink": "https://de-technical-documentation-site.netlify.app",
-            "githubLink": "https://github.com/danielblac/Technical-Documentation-Page"
-        },
-        {
-            "id": 3,
-            "title": "Little Taco Shop",
-            "coverImg": "little-taco-shop.png",
-            "description": "This is a tutorial project of a taco shop.",
-            "liveLink": "https://little-taco-shop-app.netlify.app",
-            "githubLink": "https://github.com/danielblac/Little-Taco-Shop"
-        },
-        {
-            "id": 4,
-            "title": "Tribute Page",
-            "coverImg": "tribute-page.png",
-            "description": "This is website that documents the achievements of Lionel Andres Messi, the Greatest Footballer of All Time (G.O.A.T) and his achievements from the age 17 to age 34 so far.",
-            "liveLink": "https://lionel-messi-tribute-page.netlify.app",
-            "githubLink": "https://github.com/danielblac/Tribute-Page"
-        }
-    ]
+  "next_projects": [
+    {
+      "id": 1,
+      "title": "Monodome",
+      "coverImg": "monodome.png",
+      "description": "This is a client app I built as Front-end Teamlead of a Team, The App was built with NextJs for the frontend and Laravel for the backend. I handled about 85% of the outcome of fronend for this project and I am responsible for weekly presentation to the clients about the progress of the project for the frontend and backend engineers",
+      "liveLink": "https://talosmart-monodone-frontend.vercel.app/",
+      "githubLink": "/projects/organization"
+    },
+    {
+      "id": 2,
+      "title": "Switchive",
+      "coverImg": "switchive.png",
+      "description": "This is a client app i built as Front-end Teamlead of a Team, The App was built with NextJs for the frontend and NodeJs for the backend, I built the App Layout, Landing Page and Gift-card Page, I am responsible for the supervision of delivery of the entire project as long as it concerns frontend and I am responsible for weekly presentation to the clients about the progress of the project for the frontend and backend engineers.",
+      "liveLink": "https://switch-hive-frontend.vercel.app/",
+      "githubLink": "/projects/organization"
+    },
+    {
+      "id": 3,
+      "title": "Bandage",
+      "coverImg": "next-basket.png",
+      "description": "This is a test project i did to further elaborate my skills, Its a e-commerce website where you can order for products by adding to cart or save for later by adding to wishlist. The project was built using nextjs framework, material UI, React Bootstrap and SASS for styling, Authentication was done using Next-auth, You can login using credentials, your google account or your github account.",
+      "liveLink": "https://next-basket-daniel-egboro.vercel.app",
+      "githubLink": "https://github.com/danielblac/Next-Basket"
+    },
+    {
+      "id": 4,
+      "title": "Split Delivery",
+      "coverImg": "split-delivery.png",
+      "description": "This is a website i built for a client, It has a landing page and an admin panel, The admin panel has authentication which is did using next-auth, I worked on this project with a backend developer who worked on all the endpoints needed to fulfill the customer's requirements.",
+      "liveLink": "daniel-inshorens-landingpage-l7cro656m-daniel-blac.vercel.app/",
+      "githubLink": "/projects/organization"
+    },
+    {
+      "id": 5,
+      "title": "Inshorens",
+      "coverImg": "inshorens.png",
+      "description": "This is my frontend part of a website i built as part of a team for the Inshorens app project, Inshorens is a company that deals with the business of selling valuable gadgets at very affordable prices with flexible payment structure. I was solely resposible for delivering the frontend solution to this website.",
+      "liveLink": "daniel-inshorens-landingpage-l7cro656m-daniel-blac.vercel.app/",
+      "githubLink": "https://github.com/danielblac/daniel-inshorens-landingpage"
+    }
+  ],
+  "react_projects": [
+    {
+      "id": 1,
+      "title": "Movie Watchlist",
+      "coverImg": "movie-watchlist.png",
+      "description": "This Website allows you to search for the information of both known and unknown movies and save them on your watchlist which you can access any other time. Basically improves your movie search experience.",
+      "liveLink": "https://daniel-movie-search-app.netlify.app",
+      "githubLink": "https://github.com/danielblac/Movie-Watchlist"
+    },
+    {
+      "id": 2,
+      "title": "Photo Store",
+      "coverImg": "photo-store.png",
+      "description": "This is a tutorial project of a photo store, Just to show a practical example of how an online store works, You can purchase any of the displayed photo by adding to you cart items and place your order.",
+      "liveLink": "https://daniel-photo-store.netlify.app",
+      "githubLink": "https://github.com/danielblac/Photo-Store"
+    },
+    {
+      "id": 3,
+      "title": "Speed Typing Test",
+      "coverImg": "speed-typing.png",
+      "description": "This app allows you to test your typing skills, How fast can you type, it can be used to test yourself or any other person, it also comes handy as a fun exercise.",
+      "liveLink": "https://db-speed-typing-test.netlify.app",
+      "githubLink": "https://github.com/danielblac/Speed-Typing-Test"
+    },
+    {
+      "id": 4,
+      "title": "Tenzies Game",
+      "coverImg": "tenzies.png",
+      "description": "This is a tutorial project of the tenzies game, You have to keep rolling until all dice are the same. You win by clicking on each die to freeze it at its current value between rolls.",
+      "liveLink": "https://de-tenzies-game.netlify.app",
+      "githubLink": "https://github.com/danielblac/Tenzies-Game"
+    }
+  ],
+  "javascript_projects": [
+    {
+      "id": 1,
+      "title": "TinDog",
+      "coverImg": "tindog.png",
+      "description": "This a project which is a mini replica of the Tinder Dating Site, except that it is representing dogs. You can either like or dislike each profile to move on to the next profile until you have gone through every profile on the app.",
+      "liveLink": "https://de-tindog-app.netlify.app",
+      "githubLink": "https://github.com/danielblac/TinDog"
+    },
+    {
+      "id": 2,
+      "title": "Resturant Menu",
+      "coverImg": "resturant-menu.png",
+      "description": "This is a project that shows a practical example of how you can place an order on food and drinks online and probably have it delivered to you. You choose ur preffered dish(es) and drink, enter your card details to make payment on the order and it should be delivered.",
+      "liveLink": "https://de-resturant-menu-app.netlify.app",
+      "githubLink": "https://github.com/danielblac/ResturantMenu-Project"
+    },
+    {
+      "id": 3,
+      "title": "Startpage Chrome Extension",
+      "coverImg": "chrome-extension.png",
+      "description": "This is a chrome extension that you can add to the start-up page of your chrome app, it shows different beautiful background photos and who took the photo, the current weather condition, the current rise and drop in Dogecoin price and of-course the current time.",
+      "liveLink": "https://de-startpage-chrome-extension.netlify.app",
+      "githubLink": "https://github.com/danielblac/Chrome-Extension"
+    },
+    {
+      "id": 4,
+      "title": "Card War Game",
+      "coverImg": "card-war.png",
+      "description": "This is a tutorial project of a card game called Card War, You start the game by drawing a new deck of cards containing 52 cards, You win by getting a higer card number than computer every time you draw, when the deck card is finished, the person with the highest score wins. You can start a new game by drawing a new deck as many times as you want.",
+      "liveLink": "https://de-card-war.netlify.app",
+      "githubLink": "https://github.com/danielblac/Card-War"
+    }
+  ],
+  "css_projects": [
+    {
+      "id": 1,
+      "title": "My Learning Journal",
+      "coverImg": "my-learning-journal.png",
+      "description": "This is a project that shows my learning schedule when i started learning programming newly.",
+      "liveLink": "https://de-lerning-journal.netlify.app",
+      "githubLink": "https://github.com/danielblac/My-Learning-Journal"
+    },
+    {
+      "id": 2,
+      "title": "Technical Documentation Page",
+      "coverImg": "technical-documentation-page.png",
+      "description": "This is a website that documents the proposed quotation to build and supervise a building from its foundation to completion.",
+      "liveLink": "https://de-technical-documentation-site.netlify.app",
+      "githubLink": "https://github.com/danielblac/Technical-Documentation-Page"
+    },
+    {
+      "id": 3,
+      "title": "Little Taco Shop",
+      "coverImg": "little-taco-shop.png",
+      "description": "This is a tutorial project of a taco shop.",
+      "liveLink": "https://little-taco-shop-app.netlify.app",
+      "githubLink": "https://github.com/danielblac/Little-Taco-Shop"
+    },
+    {
+      "id": 4,
+      "title": "Tribute Page",
+      "coverImg": "tribute-page.png",
+      "description": "This is website that documents the achievements of Lionel Andres Messi, the Greatest Footballer of All Time (G.O.A.T) and his achievements from the age 17 to age 34 so far.",
+      "liveLink": "https://lionel-messi-tribute-page.netlify.app",
+      "githubLink": "https://github.com/danielblac/Tribute-Page"
+    }
+  ]
 }

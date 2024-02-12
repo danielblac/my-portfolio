@@ -43,18 +43,18 @@ export default function Projects() {
             </div>
           </div>
         </Link>
-        <Link rel="noopener noreferrer" href='https://daniel-inshorens-landingpage-l7cro656m-daniel-blac.vercel.app' target="_blank">
+        <Link rel="noopener noreferrer" href='https://next-basket-daniel-egboro.vercel.app' target="_blank">
           <div className="bg-skill py-7 rounded-xl mb-5 flex flex-col px-1.5 items-center md:mb-8 md:flex-row md:gap-3 md:px-4 xl:px-8">
             <Image 
               className="w-96 h-64 rounded-xl mx-8 px-5 md:mx-0 md:px-0 md:w-80 md:h-72 lg:w-96 lg:h-80 xl:w-105 xl:h-80 xxl:max-w-none xxl:w-110"
-              src='/image/inshorens.png'
-              alt="inshorens-landing-page"
+              src='/image/next-basket.png'
+              alt="BAndage"
               width={750}
               height={600}
             />
             <div className='pt-2 px-1.5 text-center md:text-left lg:px-4 lg:mr-4'>
-              <h3 className='font-bold text-2xl mt-3 sm:text-3xl md:text-2xl md:mt-0 lg:text-3xl xl:text-4xl xxl:leading-normal'>Inshorens Landing Page</h3>
-              <p className='text-sm tracking-wide pt-2 md:pt-1 xl:text-lg lg:pt-2'>This is my frontend part of a website i built as part of a team for the Inshorens app project, Inshorens deals with the business of selling valuable gadgets at very affordabl price with flexible payment structure. I was solely resposible for delivering the frontend solution to this website.</p>
+              <h3 className='font-bold text-2xl mt-3 sm:text-3xl md:text-2xl md:mt-0 lg:text-3xl xl:text-4xl xxl:leading-normal'>Bandage</h3>
+              <p className='text-sm tracking-wide pt-2 md:pt-1 xl:text-lg lg:pt-2'>This is a test project i did to further elaborate my skills, Its a e-commerce website where you can order for products by adding to cart or save for later by adding to wishlist. The project was built using nextjs framework, material UI, React Bootstrap and SASS for styling, Authentication was done using Next-auth, You can login using credentials, your google account or your github account.</p>
             </div>
           </div>
         </Link>
@@ -70,6 +70,21 @@ export default function Projects() {
             <div className='pt-2 px-1.5 text-center md:text-left lg:px-4 lg:mr-4'>
               <h3 className='font-bold text-2xl mt-3 sm:text-3xl md:text-2xl md:mt-0 lg:text-3xl xl:text-4xl xxl:text-5xl xxl:leading-normal'>Split Delivery</h3>
               <p className='text-sm tracking-wide pt-2 md:pt-1 xl:text-lg lg:pt-2'>This is a website i built for a client, It has a landing page and an admin panel, The admin panel has authentication which is did using next-auth, I worked on this project with a backend developer who worked on all the endpoints needed to fulfill the customer's requirements.</p>
+            </div>
+          </div>
+        </Link>
+        <Link rel="noopener noreferrer" href='https://daniel-inshorens-landingpage-l7cro656m-daniel-blac.vercel.app' target="_blank">
+          <div className="bg-skill py-7 rounded-xl mb-5 flex flex-col px-1.5 items-center md:mb-8 md:flex-row md:gap-3 md:px-4 xl:px-8">
+            <Image 
+              className="w-96 h-64 rounded-xl mx-8 px-5 md:mx-0 md:px-0 md:w-80 md:h-72 lg:w-96 lg:h-80 xl:w-105 xl:h-80 xxl:max-w-none xxl:w-110"
+              src='/image/inshorens.png'
+              alt="inshorens-landing-page"
+              width={750}
+              height={600}
+            />
+            <div className='pt-2 px-1.5 text-center md:text-left lg:px-4 lg:mr-4'>
+              <h3 className='font-bold text-2xl mt-3 sm:text-3xl md:text-2xl md:mt-0 lg:text-3xl xl:text-4xl xxl:leading-normal'>Inshorens Landing Page</h3>
+              <p className='text-sm tracking-wide pt-2 md:pt-1 xl:text-lg lg:pt-2'>This is my frontend part of a website i built as part of a team for the Inshorens app project, Inshorens deals with the business of selling valuable gadgets at very affordabl price with flexible payment structure. I was solely resposible for delivering the frontend solution to this website.</p>
             </div>
           </div>
         </Link>
