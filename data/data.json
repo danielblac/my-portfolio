@@ -2,6 +2,14 @@
   "next_projects": [
     {
       "id": 1,
+      "title": "Thrillers Real Estate",
+      "coverImg": "tre.png",
+      "description": "Thrillers Real Estate is a modern platform designed for property buyers and sellers. Utilizing Next.js, React, Styled Components, and Material UI, the site features comprehensive property listings, advanced search filters, and seamless Google Maps integration. It offers a responsive and intuitive user experience, making it easy to find or sell properties with detailed information and interactive maps.",
+      "liveLink": "https://property.thrillersgroup.com/",
+      "githubLink": "/projects/organization"
+    },
+    {
+      "id": 2,
       "title": "Monodome",
       "coverImg": "monodome.png",
       "description": "This is a client app I built as Front-end Teamlead of a Team, The App was built with NextJs for the frontend and Laravel for the backend. I handled about 85% of the outcome of fronend for this project and I am responsible for weekly presentation to the clients about the progress of the project for the frontend and backend engineers",
@@ -9,7 +17,7 @@
       "githubLink": "/projects/organization"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Switchive",
       "coverImg": "switchive.png",
       "description": "This is a client app i built as Front-end Teamlead of a Team, The App was built with NextJs for the frontend and NodeJs for the backend, I built the App Layout, Landing Page and Gift-card Page, I am responsible for the supervision of delivery of the entire project as long as it concerns frontend and I am responsible for weekly presentation to the clients about the progress of the project for the frontend and backend engineers.",
@@ -17,7 +25,7 @@
       "githubLink": "/projects/organization"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Bandage",
       "coverImg": "next-basket.png",
       "description": "This is a test project i did to further elaborate my skills, Its a e-commerce website where you can order for products by adding to cart or save for later by adding to wishlist. The project was built using nextjs framework, material UI, React Bootstrap and SASS for styling, Authentication was done using Next-auth, You can login using credentials, your google account or your github account.",
@@ -25,7 +33,7 @@
       "githubLink": "https://github.com/danielblac/Next-Basket"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Split Delivery",
       "coverImg": "split-delivery.png",
       "description": "This is a website i built for a client, It has a landing page and an admin panel, The admin panel has authentication which is did using next-auth, I worked on this project with a backend developer who worked on all the endpoints needed to fulfill the customer's requirements.",
@@ -33,7 +41,7 @@
       "githubLink": "/projects/organization"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Inshorens",
       "coverImg": "inshorens.png",
       "description": "This is my frontend part of a website i built as part of a team for the Inshorens app project, Inshorens is a company that deals with the business of selling valuable gadgets at very affordable prices with flexible payment structure. I was solely resposible for delivering the frontend solution to this website.",
