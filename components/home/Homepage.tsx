@@ -78,6 +78,9 @@ export default function Homepage() {
           <div className="skill">TypeScript</div>
           <div className="skill">React</div>
           <div className="skill">JavaScript</div>
+          <div className="skill">NestJS</div>
+          <div className="skill">ExpressJS</div>
+          <div className="skill">SQL</div>
           <div className="skill">Styled Component</div>
           <div className="skill">Tailwind CSS</div>
           <div className="skill">Material UI</div>
