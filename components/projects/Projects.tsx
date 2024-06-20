@@ -8,6 +8,47 @@ export default function Projects() {
       <h2 className="font-champ text-3xl">My Projects</h2>
       <div className="pt-6">
         <Link
+          rel="noopener noreferrer"
+          href="https://www.thrillers.travel"
+          target="_blank"
+        >
+          <div className="bg-skill py-9 rounded-xl mb-5 flex flex-col px-1.5 items-center md:mb-8 md:flex-row md:gap-3 md:px-4 xl:px-8">
+            <Image
+              className="w-96 h-64 rounded-xl mx-8 px-5 md:mx-0 md:px-0 md:w-80 md:h-72 lg:w-96 lg:h-80 xl:h-80 xxl:max-w-none xxl:w-110"
+              src="/image/ttravels.png"
+              alt="Thrillers Travels"
+              width={750}
+              height={600}
+            />
+            <div className="pt-2 px-1.5 text-center md:text-left lg:px-4 lg:mr-4">
+              <div className="flex flex-col md:flex-row gap-2 justify-between items-center">
+                <h3 className="font-bold font-champ text-2xl mt-3 sm:text-3xl md:text-2xl md:mt-0 lg:text-3xl xl:text-4xl xxl:leading-normal">
+                  Thrillers Travels
+                </h3>
+                <Link
+                  className="transition-all duration-500 ease-in-out hover:scale-[1.4]"
+                  href="/projects/organization"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="View Source Code"
+                >
+                  <FaGithub size={30} className="" />
+                </Link>
+              </div>
+              <p className="text-sm tracking-wide pt-2 md:pt-1 xl:text-lg lg:pt-2 px-2 md:px-0">
+                I contributed in the development of Thrillers Travels, a travel
+                service platform built with NextJS, TypeScript, Styled
+                Components, and Material UI. This platform offers users
+                comprehensive services for booking visas, tickets, and hotel
+                stays, featuring a user-friendly interface and efficient booking
+                systems. Our team's efforts resulted in a seamless, all-in-one
+                solution for travelers, simplifying the process of arranging
+                travel accommodations and documentation.
+              </p>
+            </div>
+          </div>
+        </Link>
+        <Link
           href="https://property.thrillersgroup.com"
           target="_blank"
           rel="noopener noreferrer"
